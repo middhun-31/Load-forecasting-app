@@ -1,0 +1,9 @@
+nvidia-cufft-cu12==11.3.3.83
+pandas
+numpy
+scikit-learn
+joblib
+darts[pytorch]
+flask
+gunicorn
+boto3
