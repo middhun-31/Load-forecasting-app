@@ -1,4 +1,4 @@
-###⚡️ Probabilistic Household Load Forecasting App
+### ⚡️Probabilistic Household Load Forecasting App
 
 Tech Stack: Python 3.9+ • Streamlit • AWS App Runner • Docker • PyTorch • LightGBM • XGBoost
 
