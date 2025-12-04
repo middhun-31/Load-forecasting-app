@@ -1,35 +1,35 @@
-### ⚡️Probabilistic Household Load Forecasting App
+## ⚡️Probabilistic Household Load Forecasting App
 
 Tech Stack: Python 3.9+ • Streamlit • AWS App Runner • Docker • PyTorch • LightGBM • XGBoost
 
-##🚀 Launch Live Demo
 
-## Project Context: Uncertainty Quantification
+
+# Project Context: Uncertainty Quantification
 
 1. Deployment layer for research on uncertainty quantification in energy data
 2. Moves beyond point forecasts to provide calibrated uncertainty intervals
 3. Comparative study of SARIMA vs. Gradient Boosting vs. Transformers
 4.Research Repo: 
 
-##Frontend Layer: Streamlit Dashboard
+# Frontend Layer: Streamlit Dashboard
 1. Containerized application running on AWS App Runner
 2. Handles user inputs for House Selection and Date Range
 3. Performs real-time data loading from Amazon S3
 4. Implements custom Seasonal Imputation for preprocessing
 5. Visualizes dynamic forecasts and 90% prediction intervals
 
-## Backend Layer: Inference Services
+# Backend Layer: Inference Services
 1. Microservices architecture with four independent containers
 2. Models: LightGBM, XGBoost, Probabilistic LSTM, Temporal Fusion Transformer (TFT)
 3. REST API communication between frontend and inference engines
 4. Real-time calculation of RMSE, MAE, and Coverage metrics
 
-## Data Layer: Storage & Assets
+# Data Layer: Storage & Assets
 1. Amazon S3: Secure storage for raw REFIT dataset and model artifacts
 2. Multi-House Data: Supports generalization testing across 20 distinct households
 3. Serverless: Cost-efficient architecture (Note: 10-15s cold start time)
 
-33Local Development Setup
+# Local Development Setup
 
 1. Clone the Repository
 <pre>
